@@ -23,6 +23,7 @@ class main():
             3: self.searched_list,
             4: self.all_list,
             5: self.all_list_file,
+            6: self.exit
         })
 
     # OPCIONES
@@ -61,6 +62,13 @@ class main():
     #  GENERAR ARCHIVO
     def all_list_file(self):
         self.deploy_list('', True)
+
+    # SALIR
+    def exit(self):
+        print('\nAlex Daniel Santos Valenzuela 201904117\nalexdsantosv@gmail.com (https://github.com/alexsan-dev)\nLenguajes Formales y de Programación seccion A-\nFecha 17/02/2021\n')
+        # REGRESAR AL MENU PRINCIPAL
+        input("Presiona ENTER para continuar ")
+        pass
 
 
 # INICIAR
